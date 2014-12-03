@@ -24,12 +24,12 @@ Mobile App showcasing core values
     * Cool things
 
 ## ToDo
-  1 Setup requirejs
-  2 Setup Karma + Jasmine for tests
-  3 Code failing test cases
-  4 Make failing tests pass
-  5 ???
-  6 Profit
+ 1. Setup requirejs
+ 2. Setup Karma + Jasmine for tests
+ 3. Code failing test cases
+ 4. Make failing tests pass
+ 5. ???
+ 6. Profit
 
 ## Stack
   * Angular
