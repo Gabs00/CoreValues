@@ -1,0 +1,28 @@
+{
+  "name": "CoreValues",
+  "version": "1.0.0",
+  "description": "Core values",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gabs00/CoreValues.git"
+  },
+  "keywords": [
+    "core",
+    "values",
+    "integrity",
+    "strength",
+    "courage"
+  ],
+  "author": "Gabar Ewen",
+  "license": "GNU GPL V3",
+  "bugs": {
+    "url": "https://github.com/Gabs00/CoreValues/issues"
+  },
+  "homepage": "https://github.com/Gabs00/CoreValues"
+}
