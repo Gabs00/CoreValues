@@ -5,6 +5,7 @@ requirejs.config({
     //partials:'../partials',
     jquery:'jquery/dist/jquery',
     angular: 'angular/angular',
+    _:'underscore/underscore',
     app: '../src/app',
     controllers:'../src/components/controllers',
     directives:'../src/components/directives',
