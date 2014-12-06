@@ -4,9 +4,11 @@
     <link rel="stylesheet" href="css/main.css"></link>
   </head>
   <body ng-controller="MainCTRL">
+    <cv-navbar></cv-navbar>
     <h2>Temp</h2>
     Honor, Courage, Commitment!
     <div class="main-content">
+      <ui-view></ui-view>
     </div>
     <script data-main="src/main" src="lib\requirejs\require.js"></script>
   </body>

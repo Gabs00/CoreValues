@@ -3,6 +3,7 @@
 //Notice no need for ng-app in html/*
 require([
   'angular',
+  'templates',
   'app',
   'services',
   'controllers',
