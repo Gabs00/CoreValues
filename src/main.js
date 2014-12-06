@@ -5,11 +5,12 @@ requirejs.config({
     //partials:'../partials',
     jquery:'jquery/dist/jquery',
     angular: 'angular/angular',
-    _:'underscore/underscore',
+    underscore:'underscore/underscore',
     app: '../src/app',
     controllers:'../src/components/controllers',
     directives:'../src/components/directives',
-    services:'../src/components/services'
+    services:'../src/components/services',
+    templates:'../src/components/templates'
   },
   shim:{
     'angular': {
@@ -17,7 +18,7 @@ requirejs.config({
       exports: 'angular'
     }
   },
-  deps:['jquery','angular', '_']
+  deps:['jquery','angular', 'underscore']
 });
 
 require(['src/index']);
