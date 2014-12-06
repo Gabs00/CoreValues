@@ -18,7 +18,7 @@ requirejs.config({
       exports: 'angular'
     }
   },
-  deps:['jquery','angular', 'underscore']
+  deps:['jquery','angular', 'underscore', 'templates']
 });
 
 require(['src/index']);

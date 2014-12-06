@@ -1,22 +1,8 @@
-require(['./templates'],
 define([
-  'underscore',
-  './templates'
-  ],
-  function(_){
-    console.log();
-    var template = {};
-    var fields = [
-      'navbar'
-    ];
-    _.each(arguments, function(value, index){
-      if(index > 0){
-        var field = fields.shift();
-        template[field] = value;
-      }
-    });
-
-    return template;
-  }
-);
-);
+  'src/components/templates/navbar.template.js',
+  'src/components/templates/corevalues.template.js',
+  'src/components/templates/section.template.js',
+  'src/components/templates/value.template.js',
+  'src/components/templates/votw.template.js',
+  'src/components/templates/home.template.js'
+  ]);

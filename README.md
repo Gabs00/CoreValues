@@ -13,14 +13,14 @@ Mobile App showcasing core values
     * Show a different core value for each week
     * Show Category header and text, Text Description
   * Show All Core Values On a Single Page
-    * Collapseable sections (default view below)
+    * Collapsible sections (default view below)
       * Core Values
       * Focus on Service
       * The Collaborative Way
       * Personal Effectiveness
     * Clicking a header shows associated values
   * Bonus
-    * Use swipe gestures to change between BOTW and All Values
+    * Use swipe gestures to change between VOTW and All Values
     * Cool things
 
 ## ToDo
