@@ -1,8 +1,8 @@
 define([
   'jquery',
   'angular',
-  'lib/angular-ui-router/release/angular-ui-router.js',
-  'lib/angular-bootstrap/ui-bootstrap.js',
+  'uiRouter',
+  'uiBootstrap'
   ],
   function($, angular){
     var app = angular.module('CoreValues', ['ui.router', 'ui.bootstrap']);

@@ -1,7 +1,7 @@
 //Bootstraps out app
 //Puts everything together to be displayed on dom
 //Notice no need for ng-app in html/*
-require([
+define([
   'angular',
   'templates',
   'app',

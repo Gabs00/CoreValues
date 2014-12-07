@@ -1,25 +1,30 @@
 requirejs.config({
-  baseUrl:'lib',
+  baseUrl:'src',
   paths:{
-    src: '../src',
-    //partials:'../partials',
-    jquery:'jquery/dist/jquery',
-    angular: 'angular/angular',
-    underscore:'underscore/underscore',
-    app: '../src/app',
-    controllers:'../src/components/controllers',
-    directives:'../src/components/directives',
-    services:'../src/components/services',
-    templates:'../src/components/templates'
+    jquery:'../lib/jquery/dist/jquery',
+    angular: '../lib/angular/angular',
+    uiRouter:'../lib/angular-ui-router/release/angular-ui-router',
+    uiBootstrap:'../lib/angular-bootstrap/ui-bootstrap',
+    underscore:'../lib/underscore/underscore',
+    app: 'app',
+    controllers:'components/controllers',
+    directives:'components/directives',
+    services:'components/services',
+    templates:'components/templates'
   },
   shim:{
     'angular': {
       deps:['jquery'],
       exports: 'angular'
+    },
+    'uiRouter': {
+      deps: ['angular']
+    },
+    'uiBootstrap': {
+      deps:['angular']
     }
   },
-  deps:['jquery','angular', 'underscore', 'templates']
+  deps:['jquery','angular', 'underscore']
 });
-require(['angular'], function(){
-  require(['src/index']);
-});
+
+require(['index']);
