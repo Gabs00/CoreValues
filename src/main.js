@@ -20,5 +20,6 @@ requirejs.config({
   },
   deps:['jquery','angular', 'underscore', 'templates']
 });
-
-require(['src/index']);
+require(['angular'], function(){
+  require(['src/index']);
+});
