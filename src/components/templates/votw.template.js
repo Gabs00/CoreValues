@@ -5,9 +5,9 @@ define(['app', 'underscore'],
         [
           '<div id="votw">',
           '  <h2>Value of the Week</h2>',
-          '  <h3>Value Name</h3>',
+          '  <h3>{{ votw.title }}</h3>',
           '  <p>',
-          '    Details about core value',
+          '    {{ votw.description }}',
           '  </p>',
           '</div>'
         ].join('\n')

@@ -4,7 +4,12 @@ define(['app', 'underscore'],
       $templateCache.put('corevalues.html',
         [
           '<div id="core-values">',
-          '  <h2>A list of core values</h2>',
+          '  <div class="set" ng-repeat="set in dbKeys">',
+          '    <h2> {{ getSectionTitle(set) }} </h2>',
+          '    <cv-value ng-repeat="value in getValues(set)"',
+          '      val="value.title" des="value.description"',
+          '    ></cv-value>',
+          '  </div>',
           '</div>'
         ].join('\n')
       );

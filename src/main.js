@@ -12,6 +12,9 @@ requirejs.config({
     services:'components/services',
     templates:'components/templates'
   },
+
+  //These shims are needed to ensure the angular modules
+  //load correctly in the browser
   shim:{
     'angular': {
       deps:['jquery'],

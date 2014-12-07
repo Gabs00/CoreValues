@@ -1,13 +1,18 @@
 define(['app', 'templates'],
   function(app, templates){
 
-    app.directive('cvNavbar', [
+    app.directive('cvValue', [
     '$templateCache',
 
     function(templates){
       return {
         restrict: 'E',
-        template: templates.get('navbar.html')
+        scope: {
+          set:'=',
+          val:'=',
+          des:'='
+        },
+        template: templates.get('value.html')
       };
     }]);
   }
