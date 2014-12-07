@@ -3,10 +3,10 @@ define(['app', 'underscore'],
     app.run(function($templateCache){
       $templateCache.put('value.html',
         [
-          '<div id="navbar">',
-          '  <h3>CoreValue1</h3>',
+          '<div class="single-value">',
+          '  <h4>{{ val }}</h4>',
           '  <p>',
-          '    Details about core value',
+          '    {{ des }}',
           '  </p>',
           '</div>'
         ].join('\n')

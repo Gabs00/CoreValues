@@ -7,7 +7,6 @@ define(['app', 'underscore'],
           '  <ul class="section-values">',
           '    <li>CoreValue 1</li>',
           '    <li>CoreValue 2</li>',
-          '    <li>CoreValue 3</li>',
           '  </ul>',
           '</div>'
         ].join('\n')
