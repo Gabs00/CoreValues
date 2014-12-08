@@ -24,13 +24,11 @@ Mobile App showcasing core values
     * Cool things
 
 ## ToDo
- 1. Setup requirejs
- 2. Setup Karma + Jasmine for tests
- 3. Code failing test cases
- 4. Make failing tests pass
- 5. ???
- 6. Profit
-
+ 1. Set up stylings for each section
+ 2. Make each section collapsible
+ 3. Make mobile friendly
+ 4. Use local storage to save weekly core value
+ 
 ## Stack
   * Angular
   * angular-ui-router

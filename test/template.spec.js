@@ -1,3 +1,2 @@
-define(['templates'], function(_){
-
+define(function(require){
 });

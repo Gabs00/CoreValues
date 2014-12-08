@@ -28,39 +28,58 @@ define(['app'],
       };
 
       CoreValues.core.setValue(
-        'Show Pride in Our Ability',
-        'tmp'
+        'Show pride in our ability',
+        'We work hard, like to learn new things, and '+
+        'are always on the lookout for ways to grow personally '+
+        'and professionally. We are proud of what we know, and use '+
+        'our knowledge to help our clients be more successful.'
       );
       CoreValues.core.setValue(
-        'Constantly Improve Processess',
-        'tmp'
+        'Do it right the first time',
+        'We hate re-work, so do our best work the first '+
+        'time. And, before we ever hit "send" or say a project '+
+        'is complete, we double- or triple-check it for quality.'
       );
 
       CoreValues.focus.setValue(
-        'Follow Up on Everything',
-        'tmp'
+        'Follow up on everything',
+        'The objective of every client interaction – '+
+        'internal or external – is to make every experience '+
+        'outstanding, surprising our clients with our knowledge, quality, level of service, and speed.'
       );
       CoreValues.focus.setValue(
-        'Create a Feeling of Warmth and Friendliness in Every Client Interaction',
-        'tmp'
+        'Delight our clients',
+        'Internal and external clients rely on us, and '+
+        'we rely on them. Record a follow up date and time '+
+        'for every promised action and take responsibility for its completion.'
       );
 
       CoreValues.collaboration.setValue(
-        'Let The Silence Do The Heavy Lifting',
-        'tmp'
+        'Let the silence do the heavy lifting',
+        'The only way to know what someone else thinks, '+
+        'believes or knows is to ask them, and then to '+
+        'carefully listen to what they say. You have two ears and '+
+        'one mouth - use them proportionally.'
       );
       CoreValues.collaboration.setValue(
-        'Honor Your Commitments',
-        'tmp'
+        'Involve everyone',
+        'Everyone has ideas and wants to be involved in '+
+        'our success. We value each person’s input, so be '+
+        'sure to involve those who don’t say much in every discussion. '+
+        'It’s often the quiet team members who bring the most insight. '
       );
 
       CoreValues.effectiveness.setValue(
-        'Take Responsibility and Be Accountable',
-        'tmp'
+        'Take responsibility and be accountable',
+        'Don’t be a victim. Ask for what you need and take '+
+        'full responsibility for your success. If you see a '+
+        'problem, own it until it’s resolved.'
       );
       CoreValues.effectiveness.setValue(
-        'Live With Integrity',
-        'tmp'
+        'Be a coach',
+        'Help your team members learn and grow. We thrive '+
+        'as a business and as individuals when we are '+
+        'constantly growing and improving.'
       );
 
       function get(){

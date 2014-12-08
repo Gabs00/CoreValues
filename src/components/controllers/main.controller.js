@@ -8,17 +8,6 @@ define(['app'], function(app){
       description:'',
     };
 
-    //Need to change this to get the title
-    //using the getValueSetTitles method.
-    $scope.getSectionTitle = function(setName){
-      return db.get()[setName].title;
-    };
-
-    $scope.getValues = function(setName){
-      var set = db.getValueSet(setName);
-      return set.values;
-    };
-
     $scope.setVotw = function(){
 
       //Picking a random category
@@ -38,6 +27,5 @@ define(['app'], function(app){
     };
 
     $scope.setVotw();
-    console.log($scope.votw);
   }]);
 });
