@@ -1,5 +1,5 @@
-define(['app', 'underscore'],
-  function(app, _){
+define(['app'],
+  function(app){
     app.run(function($templateCache){
       $templateCache.put('home.html',
         [

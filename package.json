@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/Gabs00/CoreValues/issues"
   },
-  "homepage": "https://github.com/Gabs00/CoreValues"
+  "homepage": "https://github.com/Gabs00/CoreValues",
+  "dependencies": {
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
 }
