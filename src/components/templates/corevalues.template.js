@@ -4,12 +4,11 @@ define(['app'],
       $templateCache.put('corevalues.html',
         [
           '<div id="core-values">',
-          '  <div class="set" ng-repeat="set in dbKeys">',
-          '    <h2> {{ getSectionTitle(set) }} </h2>',
-          '    <cv-value ng-repeat="value in getValues(set)"',
-          '      val="value.title" des="value.description"',
-          '    ></cv-value>',
-          '  </div>',
+          '  <ul class="core-values-sections"> ',
+          '    <li class="core-values-item" ng-repeat="set in dbKeys">',
+          '     <cv-section set="set"></cv-section>',
+          '    </li>',
+          ' </ul>',
           '</div>'
         ].join('\n')
       );

@@ -5,8 +5,8 @@ define(['app'],
         [
           '<div id="votw">',
           '  <h2>Value of the Week</h2>',
-          '  <h3>{{ votw.title }}</h3>',
-          '  <p>',
+          '  <h3 class="value-title">{{ votw.title }}</h3>',
+          '  <p class="value-description" >',
           '    {{ votw.description }}',
           '  </p>',
           '</div>'

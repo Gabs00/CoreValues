@@ -3,9 +3,9 @@ define(['app'],
     app.run(function($templateCache){
       $templateCache.put('value.html',
         [
-          '<div class="single-value">',
-          '  <h4>{{ val }}</h4>',
-          '  <p>',
+          '<div class="value">',
+          '  <h4 class="value-title">{{ val }}</h4>',
+          '  <p class="value-description">',
           '    {{ des }}',
           '  </p>',
           '</div>'

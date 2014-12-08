@@ -1,4 +1,4 @@
 //Paths to controllers go here
 define([
-  'src/components/main.controller.js'
+  'src/components/controllers/main.controller.js',
 ]);
