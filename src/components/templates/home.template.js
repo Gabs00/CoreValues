@@ -4,8 +4,8 @@ define(['app'],
       $templateCache.put('home.html',
         [
           '<div id="home"',
-          ' ng-swipe-left="go(\'home.votw\')"',
-          ' ng-swipe-right="go(\'home.values\')"',          
+          ' ng-swipe-left="go()"',
+          ' ng-swipe-right="go()"',          
           '>',
           '  <ui-view></ui-view>',
           '</div>'

@@ -25,7 +25,10 @@ define(['app'], function(app){
       $scope.votw.title = votw.title;
       $scope.votw.description = votw.description;
     };
-    $scope.go = function(state){
+
+    $scope.go = function(){
+      var state = $state.is('home.votw') ?
+        'home.values': 'home.votw';
       $state.go(state);
     };
     $scope.setVotw();
