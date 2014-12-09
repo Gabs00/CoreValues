@@ -9,7 +9,7 @@ define(['app'],
           '      <a ui-sref="home.votw" >Value of the Week</a>',
           '    </li>',
           '    <li role="presentation" ui-sref-active="active">',
-          '      <a ui-sref="home.values">Core Values</a>',
+          '      <a ui-sref="home.values">Our Values</a>',
           '    </li>',
           '  </ul>',
           '</div>'
