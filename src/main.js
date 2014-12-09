@@ -5,6 +5,7 @@ requirejs.config({
     angular: '../lib/angular/angular',
     uiRouter:'../lib/angular-ui-router/release/angular-ui-router',
     uiBootstrap:'../lib/angular-bootstrap/ui-bootstrap',
+    ngTouch: '../lib/angular-touch/angular-touch',
     underscore:'../lib/underscore/underscore',
     app: 'app',
     controllers:'components/controllers',
@@ -24,6 +25,9 @@ requirejs.config({
       deps: ['angular']
     },
     'uiBootstrap': {
+      deps:['angular']
+    },
+    'ngTouch': {
       deps:['angular']
     }
   },

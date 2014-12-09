@@ -1,5 +1,5 @@
 define(['app'], function(app){
-  app.controller('MainCTRL',['$scope','ContentDB', function($scope, db){
+  app.controller('MainCTRL',['$scope','ContentDB','$state', function($scope, db, $state){
     $scope.dbKeys = Object.keys(db.get());
     $scope.votw = {
       cat:'',
@@ -25,7 +25,9 @@ define(['app'], function(app){
       $scope.votw.title = votw.title;
       $scope.votw.description = votw.description;
     };
-
+    $scope.go = function(state){
+      $state.go(state);
+    };
     $scope.setVotw();
   }]);
 });

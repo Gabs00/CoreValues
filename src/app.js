@@ -2,10 +2,11 @@ define([
   'jquery',
   'angular',
   'uiRouter',
-  'uiBootstrap'
+  'uiBootstrap',
+  'ngTouch'
   ],
   function($, angular){
-    var app = angular.module('CoreValues', ['ui.router', 'ui.bootstrap']);
+    var app = angular.module('CoreValues', ['ui.router', 'ui.bootstrap', 'ngTouch']);
 
     app.config([
       '$stateProvider',
