@@ -15,6 +15,8 @@ define(['app', 'templates'],
         link: function(scope, elem, attr){
           scope.dbKeys = Object.keys(db.get());
 
+
+          scope.collapsed = true;
           //Need to change this to get the title
           //using the getValueSetTitles method.
           scope.getSectionTitle = function(setName){
