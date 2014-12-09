@@ -25,10 +25,7 @@ Mobile App showcasing core values
 
 ## ToDo
  1. Set up stylings for each section
- 2. Make each section collapsible
- 3. Make mobile friendly
- 4. Use local storage to save weekly core value
- 
+
 ## Stack
   * Angular
   * angular-ui-router
@@ -36,8 +33,6 @@ Mobile App showcasing core values
   * angular-bootstrap, bootstrap-less
     * Styling, also provides nice ui tweaks. Though, may switch for angular-material design
   * Requirejs
-    * Easy bundling of src
-  * Underscore
-    * Mainly for templating, since we won't be using a server
+    * Easy bundling of src code
   * Karma, Jasmine and friends
     * TDD
