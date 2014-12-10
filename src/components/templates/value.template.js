@@ -3,11 +3,13 @@ define(['app'],
     app.run(function($templateCache){
       $templateCache.put('value.html',
         [
-          '<div class="value">',
-          '  <h4 class="value-title">{{ val }}</h4>',
-          '  <p class="value-description">',
+          '<div class="values">',
+          '  <div class="panel-heading">',
+          '    <h2 class="value-title-text">{{ val }}</h2>',
+          '  </div>',
+          '  <div class="value-description-text">',
           '    {{ des }}',
-          '  </p>',
+          '  </div>',
           '</div>'
         ].join('\n')
       );

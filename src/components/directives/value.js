@@ -7,12 +7,14 @@ define(['app', 'templates'],
     function(templates){
       return {
         restrict: 'E',
+        replace: true,
         scope: {
           set:'=',
           val:'=',
           des:'='
         },
-        template: templates.get('value.html')
+        template: templates.get('value.html'),
+
       };
     }]);
   }
