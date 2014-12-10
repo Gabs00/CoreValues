@@ -8,6 +8,7 @@ define(['app', 'templates'],
     function(templates, db){
       return {
         restrict: 'E',
+        replace:true,
         scope: {
           set:'='
         },

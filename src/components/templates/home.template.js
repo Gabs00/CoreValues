@@ -5,7 +5,7 @@ define(['app'],
         [
           '<div id="home"',
           ' ng-swipe-left="go()"',
-          ' ng-swipe-right="go()"',          
+          ' ng-swipe-right="go()"',
           '>',
           '  <ui-view></ui-view>',
           '</div>'

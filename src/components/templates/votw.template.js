@@ -4,11 +4,12 @@ define(['app'],
       $templateCache.put('votw.html',
         [
           '<div id="votw" >',
-          '  <h2 class="page-header">Value of the Week</h2>',
-          '  <h3 class="value-title">{{ votw.title }}</h3>',
-          '  <p class="value-description" >',
-          '    {{ votw.description }}',
-          '  </p>',
+          '  <div class="panel-heading votw-header">',
+          '    <h2 class="votw-title-text">Value of the Week</h2>',
+          '  </div>',
+          '  <div class="votw-body">',
+          '    <cv-value val="votw.title" des="votw.description">',
+          '  </div>',
           '</div>'
         ].join('\n')
       );

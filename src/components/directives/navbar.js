@@ -7,6 +7,7 @@ define(['app', 'templates'],
     function(templates){
       return {
         restrict: 'E',
+        replace:true,
         template: templates.get('navbar.html')
       };
     }]);
